@@ -1,0 +1,95 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td { margin:0; padding:0; }
+body { background:#fff; color:#555; font-size:14px; font-family: Verdana, Arial, Helvetica, sans-serif; }
+td,th,caption { font-size:14px; }
+h1, h2, h3, h4, h5, h6 { font-weight:normal; font-size:100%; }
+address, caption, cite, code, dfn, em, strong, th, var { font-style:normal; font-weight:normal;}
+a { color:#555; text-decoration:none; }
+a:hover { text-decoration:underline; }
+img { border:none; }
+ol,ul,li { list-style:none; }
+input, textarea, select, button { font:14px Verdana,Helvetica,Arial,sans-serif; }
+table { border-collapse:collapse; }
+html {overflow-y: scroll;} 
+
+.clearfix:after {content: "."; display: block; height:0; clear:both; visibility: hidden;}
+.clearfix { *zoom:1; }
+#header{
+	color:#4169E1;
+	background-color: #FFFFF0;
+	padding: 15px 30px 20px 20px;
+	height:50px; 
+	font-size: 1.8em;
+}
+#loginwrap{
+	border-top:1px solid ##87CEFA;
+	box-shadow: 0px 0px 11px 5px #ADD8E6;
+	height: 550px;
+	background: #F0FFFF;
+	padding: 60px 180px 100px 180px;
+}
+#lside {
+	margin-top: 60px;
+	height: 370px;
+	width:520px;
+	float: left;
+}
+#lside img{
+	border-radius:30px;
+}
+#rside{
+	border:6px dashed #7B68EE;
+	background-color: white;
+	padding-top: 40px;
+	margin-left: 85px;
+	height: 450px;
+	width: 430px;
+	float: left;	
+	text-align: center;
+}
+#rside h1{
+	background: transparent;
+	font-size: 35px;
+	font-style: bold;
+	color:#000080;
+	font-family: sans-serif;
+	font-weight: bold;
+	text-align: center;
+	padding-bottom: 15px;
+}
+#password,#username{
+	-webkit-appearance:none;
+ 	-moz-appearance: none;
+ 	outline: 0;
+ 	text-align:center;
+	font-size:1.2em;
+	height:1.6em;
+	width: 15em;
+	border-radius:4px;
+	border:1px solid #c8cccf;
+	color:#6a6f77;
+	margin-top: 1.8em ;
+}
+#keep {margin-top: 1em;}
+#keep label{font-size: 0.8em;}
+#rside label{
+	font-size: 1.5em;
+	font-style: bold;
+	margin-top: 1.8em;
+}
+#rside input[type="submit"]{
+	width: 15em;
+	font-size: 1.5em;
+	border-radius:6px;
+	margin-top: 1.8em;
+	color:white;
+	background-color: #AFEEEE;
+}
+.register{
+	margin-top: 1.8em;
+	font-size: 1.2em;
+}
+.register a{
+	font-size: 1.9em;
+	font-style: bold;
+	color:#FF8C00;
+}
