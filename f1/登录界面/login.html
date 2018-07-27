@@ -1,0 +1,54 @@
+<DOCTYPE html>
+<html lang="en">
+<head>
+	<title>denglujiemian</title>
+</head>
+
+<link rel="stylesheet" type="text/css" href="login.css">
+<body>
+	<div id="content">
+		<div id="pannel">
+			<div id="picture">
+				<img src="timg.png"/> 
+			</div>
+
+			<div id="mess">
+				<div id="info">
+					<form action="form_action.app" autocomplete="on">
+						<div class="item">
+							<label for="username">username or e-mail</label>
+							<input id="username" name="username" required="required" type="text" />
+							<div class="bottom-line"></div>
+						</div>
+						<div class="item">
+							<label for="password">your password</label>
+							<input id="password" name="password" required="required" type="password" pattern="[0-9]" /> 
+							<div class="bottom-line"></div>
+						</div>
+				</div>
+				<div id="login">	
+					<input type="submit" value="Log In">
+				</div>
+				<div id="keep" class="bottom">
+					<input type="checkbox" name="keeping" id="keeping" value="keeping" /> 
+					<label for="keeping">Keep my username&password</label>		
+				</div>
+			</form>
+				<div id="register" class="bottom">
+					<a href="www.myWebRegister.com" class="to_register">Join us now!</a> 
+				</div>
+			</div>	
+		</div>
+	</div>
+<script src="jquery-3.3.1.min.js"></script>
+    <script>
+        $("input").focus(function(event) {
+            $(this).siblings("label").stop().animate({"bottom": "50px"}, 500);
+            $(this).next(".bottom-line").stop().animate({"width": "400px"}, 500);
+        });
+        $("input").blur(function(event) {
+            $(this).next(".bottom-line").stop().animate({"width": "0"}, 500);
+        });
+    </script>
+</body>
+</html>

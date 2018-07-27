@@ -1,0 +1,96 @@
+#content{
+	background-color: #F4A460;
+	padding: 80px 100px;
+}
+#pannel{
+	position: relative;
+	padding: 70px 90px 70px 90px;
+	border:6px dashed #7B68EE;
+	width: 550px;
+	height: 650px;
+	background-color: #FFF8DC;
+	margin:0 auto;
+}
+#picture{
+	width: 250px;
+	height: 250px;
+	border-radius:140px;
+	background-color: red;
+	margin:0 auto; 
+}
+#mess{
+	width: 535px;
+	height: 600px;
+	margin-top: 70px;
+	text-align: center;
+}
+.item{
+	width:26.5em;
+    margin:2.7em auto;
+    position: relative;
+    right: 50px;
+    text-align: center;
+}
+.item label{
+    font-size: 1.9em;
+    position: absolute;
+    left:3px;
+    bottom:5px;
+    font-family: "宋体";
+    color:#777;
+    cursor: text;
+        }
+.item input{
+	background-color: transparent;
+    padding-top: 35px;
+   	height:1.5em;
+	width: 26em;
+    font-size: 1.3em;
+    border:none;
+    outline:none;
+    border-bottom: 1px solid #c3c3c3;
+        }
+.bottom-line{
+    position: absolute;
+    width: 0px;
+    height: 3px;
+    left:0;
+    bottom: -1.5px;
+    background-color: red;
+}
+#login input[type="submit"]	{
+	position: absolute;
+    left: 669px;
+    top:520px;
+	width: 4em;
+	height: 4em;
+	font-size: 1.9em;
+	border-radius:2em;
+	color:white;
+	font-weight: 800;
+	text-align: center;
+	background-color: #F0E68C;
+}
+#register{
+	font-size: 1.2em;
+	background: transparent;
+	float: left;
+}
+a:link{
+    font-color:yellow;
+    text-decoration: none;
+}
+a:hover{
+    font-size: 1.5em;
+    font-color:red;
+}
+#keep{
+	font-size: 1.2em;
+	font-style: bold;
+	font-color:#4B0082;
+	background-color: transparent;
+	float: right;
+}
+.bottom{
+	margin-top: 65px;
+}
