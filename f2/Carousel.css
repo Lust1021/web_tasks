@@ -1,0 +1,89 @@
+#header {
+  width: 1200px;
+  height: 70px;
+  text-align: center;
+  font-size: 2.5em;
+  font: #1f257a;
+  background-color: #fadbe5;
+  border-bottom: 3px dashed darkseagreen;
+  margin: 0 auto;
+}
+
+.container {
+  margin-top: 70px;
+  margin: 0 auto;
+  width: 1200px;
+  height: 580px;
+  overflow: hidden;
+  position: relative;
+}
+.container #picture {
+  width: 500%;
+  height: 580px;
+  position: absolute;
+  left: -1200px;
+  z-index: 1;
+}
+.container #picture img {
+  float: left;
+  width: 20%;
+  height: 580px;
+}
+.container #dots {
+  position: absolute;
+  height: 22px;
+  width: 110px;
+  z-index: 2;
+  bottom: 20px;
+  left: 50%;
+}
+.container #dots span {
+  cursor: pointer;
+  float: left;
+  border: 1px solid #f83807;
+  width: 13px;
+  height: 13px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+.container #dots span:hover {
+  background: #d3834e;
+  width: 16px;
+  height: 16px;
+  margin-right: 3.5px;
+}
+.container #dots span:hover + span {
+  margin-right: 3.5px;
+}
+.container .btn {
+  height: 580px;
+  width: 100px;
+  position: absolute;
+  font-size: 100px;
+  top: 145px;
+  color: #183755;
+  opacity: 0.3;
+  cursor: pointer;
+  z-index: 2;
+  text-align: center;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+.container .btn:hover {
+  opacity: 0.6;
+}
+.container .btn:active {
+  opacity: 0.9;
+}
+.container #pre {
+  left: 15px;
+}
+.container #next {
+  right: 15px;
+}
+
+/*# sourceMappingURL=Carousel.css.map */
